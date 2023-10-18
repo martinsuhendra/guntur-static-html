@@ -1,0 +1,28 @@
+.benefits {
+  padding: 0px 32px 0px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.benefits__title {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.benefits__barcode {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0px 24px 0px;
+}
+
+.benefits__barcode-image {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}

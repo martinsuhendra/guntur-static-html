@@ -1,0 +1,90 @@
+/* other css file imports */
+@import url('sections/landing.css');
+@import url('sections/introduction.css');
+@import url('sections/benefits.css');
+@import url('sections/contacts.css');
+@import url('sections/about.css');
+
+@font-face {
+  font-family: Axiata Medium;
+  src: url('../fonts/Axiata\ Medium.ttf');
+}
+@font-face {
+  font-family: Axiata Regular;
+  src: url('../fonts/Axiata\ Book.ttf');
+}
+
+/* CSS variables for reusablity across all files (including above imported) */
+:root {
+  --axiata-display: 'Axiata Medium', serif;
+  --axiata-public: 'Axiata Regular', serif;
+
+  --primary-color: #05509f;
+
+  --color-white: #fff;
+  --color-canvas: #f5f5f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 400px;
+  min-width: 296px;
+  margin: 0 auto;
+  background-color: var(--color-canvas);
+}
+
+section {
+  background-color: var(--color-white);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ol > li {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--axiata-display);
+  margin-bottom: 14px;
+}
+
+ul {
+  list-style: inside;
+  list-style-position: outside;
+}
+
+ul > li {
+  font-size: 10px;
+  font-weight: 300;
+  font-family: var(--axiata-public);
+}
+
+.title {
+  font-size: 10px;
+  font-weight: 700;
+  font-family: var(--axiata-display);
+}
+
+.title-primary {
+  color: var(--primary-color);
+}
+
+.caption {
+  font-size: 10px;
+  font-weight: 300;
+  font-family: var(--axiata-public);
+}
+
+.overline {
+  font-size: 8px;
+  font-weight: 300;
+  font-family: var(--axiata-public);
+  color: var(--primary-color);
+}

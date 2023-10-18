@@ -1,0 +1,13 @@
+.landing {
+  position: relative;
+}
+.landing__hero-image {
+  width: 100%;
+  height: 'auto';
+}
+
+.landing__logo {
+  position: absolute;
+  top: 17.33px;
+  left: 18px;
+}
