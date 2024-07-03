@@ -1,9 +1,0 @@
-.introduction {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 14px;
-  padding: 0px 36px 0px 36px;
-}
